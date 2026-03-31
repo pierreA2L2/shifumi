@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12pt;
+}
+main{
+    background-color: #fff;
+    width: 80vw;
+    height: 90vh;
+    border-radius: 15px;
+    box-shadow: 5px 2px #1a2f56;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding : 15px;
+    flex-wrap: wrap;
+}
+h1{
+    
+    font-family: 'Bangers';
+    font-size:3rem;
+    width:100%;
+    line-height: 3rem;   
+}
+#info{
+    width:20%;
+    height: 20%;
+    /* border: solid 1px black; */
+    /* border-radius: 5px; */
+
+}
+#game{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width:25%;
+}
+
+#pierre, #feuille, #ciseaux{
+    cursor: pointer;
+}
+
+#gameComputer{
+    width: 25%;
+}
+#resultGame{
+    font-family: 'Bangers';
+    width: 100%;
+}
+#score{
+    font-family: 'Bangers';
+}
+
